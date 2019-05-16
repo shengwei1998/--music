@@ -24,6 +24,7 @@ Page({
   },
 
   onUnload() {
+    // 推出就销毁音乐
     this.audio.destroy();
   }
 })

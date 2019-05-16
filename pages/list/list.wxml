@@ -1,0 +1,12 @@
+<view 
+    wx:for="{{ musicList }}" 
+    wx:key="{{ _id }}" 
+    class='wrapper' 
+    bindtap='play'
+    data-item="{{ item }}"
+>
+  <text>{{ index + 1 }}：</text>
+  <text>{{ item.title }}</text>
+</view> 
+
+<view wx:if="{{ noMore }}" class='nomore'>没有啦，别拉了</view>

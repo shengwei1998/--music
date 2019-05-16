@@ -1,0 +1,3 @@
+<view id='father' class='father' bindtap='fn1'>
+  <view id='son' class='son'></view>
+</view>

@@ -1,0 +1,5 @@
+<view>{{ musictitle }}</view>
+
+<image src="{{ musicImg }}" class='main_img'></image>
+
+<button bindtap='playMusic'>点我播放</button>

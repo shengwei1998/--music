@@ -1,0 +1,17 @@
+.wrapper {
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-bottom: 1px #eee solid;
+  padding: 0 10px;
+}
+
+.nomore {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  text-align: center;
+}

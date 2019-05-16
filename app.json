@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/about/about",  
+    "pages/play/play"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "QQ音乐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "音乐列表"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们"
+      }
+    ],
+    "position": "top"
+  },
+  "sitemapLocation": "sitemap.json"
+}
